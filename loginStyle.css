@@ -98,6 +98,10 @@ div.camera {
     border-radius: 30px;
     background-color: rgb(178, 102, 255);
     color:cornsilk;
+    padding: 10px 20px 10px 5px;
+    border: none;
+    outline: none;
+    background: none;
 }
 
 a {
