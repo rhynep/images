@@ -90,6 +90,11 @@ div.signUp {
     text-align: center;
 }
 
+div.camera {
+    padding-top:10%;
+    padding-left:10%;
+}
+
 a {
     text-decoration: none;
     color: black;
