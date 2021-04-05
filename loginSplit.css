@@ -91,11 +91,15 @@ div.signUp {
 }
 
 div.camera {
-
-        text-align: center;
-        display:flex;
-        flex-direction: row;
-        padding-left:70%;
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+    text-align: right;
+    margin-bottom:0.5px;
+    margin-top:244px;
+    margin-left:55px;
+   
+        padding-left:80%;
         width:500px;
         border: none;
         font-size: 22px;
