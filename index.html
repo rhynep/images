@@ -2,7 +2,7 @@
 <head>
 
     <link rel="stylesheet" href="loginStyle.css" media="all">
-    <script src="camera.js" defer></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.25/webcam.js"></script>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&family=Titillium+Web:wght@300&family=Train+One&display=swap" rel="stylesheet"> 
@@ -50,18 +50,37 @@
 
 
 
-
-           <div class="camera">
-            <video id="video">Video stream is not available.</video>
-            <button id="startbutton">Snap Photo</button>
-          </div>
-    
-          <canvas id="canvas">
-        </canvas>
-
-                <div class="output">         
-          <img id="photo" alt="Camera screen">
-        </div>
+            <div id="camera" style="height:auto;width:auto; text-align:left;"></div>
+            <input type="button" value="Login" id="btPic" 
+                onclick="takeSnapShot()" /> 
+        </body>
+        
+        <script>
+            // CAMERA SETTINGS.
+            Webcam.set({
+                width: 220,
+                height: 190,
+                image_format: 'jpeg',
+                jpeg_quality: 100
+            });
+            Webcam.attach('#camera');
+        
+            // TAKE A SNAPSHOT.
+            takeSnapShot = function () {
+                Webcam.snap(function (data_uri) {
+                    downloadImage('arun', data_uri);
+                });
+            }
+        
+            // DOWNLOAD THE IMAGE.
+            downloadImage = function (name, datauri) {
+                var a = document.createElement('a');
+                a.setAttribute('download', name + '.png');
+                a.setAttribute('href', datauri);
+                a.click();
+            }
+        </script>
+             </div>
   
         </div>
         
