@@ -86,16 +86,6 @@ button.signIn, button.camera {
     color:cornsilk;
 }
 
-button.signIn, button.camera {
-    width: 100%;
-    padding: 12px 10px;
-    border: none;
-    font-size: 22px;
-    border-radius: 30px;
-    background-color:rgb(222, 243, 246);
-    color:cornsilk;
-}
-
 div.signUp {
     text-align: center;
 }
