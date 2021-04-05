@@ -95,12 +95,9 @@ div.camera {
     flex-direction: row;
     position: absolute;
     text-align: right;
-    margin-bottom:0.5px;
-    margin-top:244px;
-    margin-left:55px;
-   
+    margin-bottom:0.5px; 
         padding-left:80%;
-        width:500px;
+        width:355px;
         border: none;
         font-size: 22px;
         border-radius: 11px;
