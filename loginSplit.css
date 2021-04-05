@@ -28,7 +28,6 @@ img.logo {
   
 }
 
-
 div.title {
     text-align: center;
     font-size:xx-large;
@@ -76,7 +75,7 @@ div.options, div.input-group {
     margin-bottom: 30px;
 }
 
-button.signIn, button.camera {
+button.signIn {
     width: 100%;
     padding: 12px 10px;
     border: none;
@@ -92,7 +91,7 @@ div.signUp {
 
 div.camera {
     display:flex;
-    flex-direction: row;
+    flex-direction:row;
     position: absolute;
     text-align: right;
     margin-top: 7px;
