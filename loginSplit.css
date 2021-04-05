@@ -10,7 +10,7 @@ body {
 div.login {
 position:absolute;
 margin: 10px auto;
-
+background-position-x: right;
 background-color:rgb(255, 255, 255);
 padding: 60px;
 
