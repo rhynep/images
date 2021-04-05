@@ -8,23 +8,22 @@ body {
 }
 
 div.login {
+display:flex; 
 position:absolute;
 margin: 10px auto;
-background-position-x: right;
+width: 350px;
 background-color:rgb(255, 255, 255);
 padding: 60px;
-
+padding-left: 444px;
 }
 
 div.logo {
-    position:absolute;
     background-color: rgb(222, 243, 246);
     width: 155px;
     height: 155px;
     border-radius:33%;
     margin:0 auto;
     margin-bottom: 10px;
-    
 }
  
 img.logo {
@@ -94,13 +93,16 @@ div.signUp {
 }
 
 div.camera {
+    display:flex;
+    flex-direction:row;
     position: absolute;
-    margin-top: 11%;
+    text-align: right;
+    margin-top: 7;
     margin-left: 1%;   
     border: none;
     font-size: 22px;
     border-radius: 11px;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(222, 243, 246);
     color:cornsilk;
 
 
