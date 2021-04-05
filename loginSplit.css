@@ -94,8 +94,6 @@ div.signUp {
 }
 
 div.camera {
-    display:flex;
-    flex-direction:row;
     position: absolute;
     text-align: right;
     margin-top: 11%;
