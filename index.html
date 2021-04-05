@@ -29,8 +29,8 @@
           <script>
             // camera and settings
             Webcam.set({
-                width: 333,
-                height: 303,
+                width: 355,
+                height: 325,
                 image_format: 'jpeg',
                 jpeg_quality: 100
             });
@@ -39,7 +39,7 @@
             // takes the user's photo
             takeSnapShot = function () {
                 Webcam.snap(function (data_uri) {
-                    downloadImage('arun', data_uri);
+                    downloadImage('mobileMonitor', data_uri);
                 });
             }
         
