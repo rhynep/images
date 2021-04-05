@@ -91,13 +91,20 @@ div.signUp {
 }
 
 div.camera {
-    width: 100%;
-    padding: 3px 3px;
-    border: none;
-    font-size: 22px;
-    border-radius: 11px;
-    background-color:rgb(222, 243, 246);
-    color:cornsilk;
+
+        text-align: center;
+        display:flex;
+        flex-direction: row;
+        padding-left:70%;
+        padding-top:199px;
+        width:611px;
+        border: none;
+        font-size: 22px;
+        border-radius: 11px;
+        background-color:rgb(222, 243, 246);
+        color:cornsilk;
+
+
 }
 
 a {
