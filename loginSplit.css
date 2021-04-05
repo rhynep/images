@@ -18,13 +18,15 @@ padding-left: 50%;
 }
 
 div.logo {
+    display:flex; 
+    position:absolute;
     background-color: rgb(222, 243, 246);
     width: 155px;
     height: 155px;
     border-radius:33%;
     margin:0 auto;
     margin-bottom: 10px;
-    margin-left: 50%; \\newwwwwwwwwwwwwwwwwwwwwwwww
+    
 }
  
 img.logo {
