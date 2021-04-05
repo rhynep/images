@@ -95,9 +95,8 @@ div.signUp {
 
 div.camera {
     position: absolute;
-    text-align: right;
     margin-top: 11%;
-    margin-left: 11%;   
+    margin-left: 1%;   
     border: none;
     font-size: 22px;
     border-radius: 11px;
