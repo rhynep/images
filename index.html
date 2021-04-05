@@ -11,44 +11,45 @@
 <body>
 
 
-    <div id="camera" style="height:auto;width:auto; text-align:left;"></div>
-    <input type="button" value="Login" id="btPic" 
-        onclick="takeSnapShot()" /> 
-</body>
-
-<script>
-    // CAMERA SETTINGS.
-    Webcam.set({
-        width: 220,
-        height: 190,
-        image_format: 'jpeg',
-        jpeg_quality: 100
-    });
-    Webcam.attach('#camera');
-
-    // TAKE A SNAPSHOT.
-    takeSnapShot = function () {
-        Webcam.snap(function (data_uri) {
-            downloadImage('arun', data_uri);
-        });
-    }
-
-    // DOWNLOAD THE IMAGE.
-    downloadImage = function (name, datauri) {
-        var a = document.createElement('a');
-        a.setAttribute('download', name + '.png');
-        a.setAttribute('href', datauri);
-        a.click();
-    }
-</script>
-     </div>
-
     <div class="login">
         <div class="logo">
            <img src="/images/winkyBig.GIF" alt="Mobile Monotoring System Login" width="150">
         </div>
             <div class="title">Mobile Monitoring Station</div>
         <div class="subtitle">User Login</div>
+        <div class="subtitle2">After you login with your photo, please register your temperture.</div>
+
+
+        <div id="camera" style="height:auto;width:auto; text-align:left;"></div>
+        <input type="button" value="Login" id="btPic" 
+            onclick="takeSnapShot()" /> 
+    
+        <script>
+            // camera and settings
+            Webcam.set({
+                width: 220,
+                height: 190,
+                image_format: 'jpeg',
+                jpeg_quality: 100
+            });
+            Webcam.attach('#camera');
+        
+            // takes the user's photo
+            takeSnapShot = function () {
+                Webcam.snap(function (data_uri) {
+                    downloadImage('arun', data_uri);
+                });
+            }
+        
+            // downloads the user photo and stores it on the device
+            downloadImage = function (name, datauri) {
+                var a = document.createElement('a');
+                a.setAttribute('download', name + '.png');
+                a.setAttribute('href', datauri);
+                a.click();
+            }
+        </script>
+             </div>
 
     <div class="form">
         
@@ -66,19 +67,10 @@
             <input type="password" placeholder="Password">
         </div>
     
-        <div class="options">
-            <div class="remeberMe">
-                <input id="rememberMe" type="checkbox">
-                <Label for="rememberMe">Remember Me</Label>
-            </div>
-
-            <div class="forgotPassword">
-                <a href="#">Forgot Password?</a>
-            </div>
-        </div>
+        <div class="options"></div>
          <button class="signIn">LOGIN</button></div>
            <div class="signUp">
-               <a href="#">SIGN UP</a>
+               <a href="register.php">SIGN UP</a>
            </div>
 
 
