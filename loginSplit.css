@@ -1,0 +1,107 @@
+* {
+    font-family: 'Staatliches', cursive;
+     
+}
+
+body {
+    background-color:rgb(222, 243, 246);
+}
+
+div.login {
+margin: 100px auto;
+width: 350px;
+background-color:rgb(255, 255, 255);
+padding: 60px;
+}
+
+div.logo {
+    background-color: rgb(222, 243, 246);
+    width: 155px;
+    height: 155px;
+    border-radius:75%;
+    margin:0 auto;
+    margin-bottom: 10px;
+}
+
+img.logo {
+    width: 100%;
+  
+}
+
+
+div.title {
+    text-align: center;
+    font-size:xx-large;
+}
+
+div.subtitle {
+    text-align: center;
+    font-size: x-large;
+}
+
+div.form {
+    width: 100%;
+    margin-top: 30px;
+}
+
+div.form input {
+    font-size: 18px;
+    padding: 10px 20px 10px 5px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+ div.username, div.password {
+     display: black;
+     border-radius: 30px;
+     border: 1px solid rgba(0,0,0,0.9);
+     padding: 10px;
+     margin: 10px 0;
+     
+}
+
+.form svg {
+    height: 25px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+div.options, div.input-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding: 5px 0px;
+    margin-bottom: 30px;
+}
+
+button.signIn, button.camera {
+    width: 100%;
+    padding: 12px 10px;
+    border: none;
+    font-size: 22px;
+    border-radius: 30px;
+    background-color: rgb(178, 102, 255);
+    color:cornsilk;
+}
+
+div.signUp {
+    text-align: center;
+}
+
+div.camera {
+    width: 100%;
+    padding: 3px 3px;
+    border: none;
+    font-size: 22px;
+    border-radius: 11px;
+    background-color:rgb(222, 243, 246);
+    color:cornsilk;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
