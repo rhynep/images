@@ -24,7 +24,7 @@ div.logo {
     border-radius:33%;
     margin:0 auto;
     margin-bottom: 10px;
-    margin-left: 50%;
+    margin-left: 50%; \\newwwwwwwwwwwwwwwwwwwwwwwww
 }
  
 img.logo {
@@ -103,7 +103,7 @@ div.camera {
     border: none;
     font-size: 22px;
     border-radius: 11px;
-    background-color:rgb(222, 243, 246);
+    background-color:rgb(255, 255, 255);
     color:cornsilk;
 
 
