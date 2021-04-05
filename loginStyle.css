@@ -76,7 +76,7 @@ div.options, div.input-group {
     margin-bottom: 30px;
 }
 
-button.signIn {
+button.signIn, button.camera {
     width: 100%;
     padding: 12px 10px;
     border: none;
@@ -86,15 +86,14 @@ button.signIn {
     color:cornsilk;
 }
 
-button.signIn2 {
+button.signIn, button.camera {
     width: 100%;
     padding: 12px 10px;
     border: none;
     font-size: 22px;
     border-radius: 30px;
-    background-color:rgb(222, 243, 246);
+    background-color: rgb(178, 102, 255);
     color:cornsilk;
-    align-items: center;
 }
 
 div.signUp {
@@ -109,7 +108,6 @@ div.camera {
     border-radius: 11px;
     background-color:rgb(222, 243, 246);
     color:cornsilk;
-    align-items: center;
 }
 
 a {
