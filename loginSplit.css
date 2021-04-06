@@ -11,14 +11,14 @@ div.login {
 margin: 10px auto;
 width: 350px;
 background-color:rgb(255, 255, 255);
-padding: 60px;
+padding: 11px;
 }
 
 div.logo {
     background-color: rgb(222, 243, 246);
     width: 155px;
     height: 155px;
-    border-radius:33%;
+    border-radius:77%;
     margin:0 auto;
     margin-bottom: 10px;
 }
