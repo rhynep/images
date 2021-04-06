@@ -76,7 +76,7 @@ div.options, div.input-group {
     margin-bottom: 30px;
 }
 
-button.signIn {
+button.signIn, button.camera {
     width: 100%;
     padding: 12px 10px;
     border: none;

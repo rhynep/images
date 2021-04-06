@@ -8,13 +8,10 @@ body {
 }
 
 div.login {
-display:flex; 
-position:absolute;
 margin: 10px auto;
 width: 350px;
 background-color:rgb(255, 255, 255);
 padding: 60px;
-padding-left: 444px;
 }
 
 div.logo {
@@ -97,13 +94,14 @@ div.camera {
     flex-direction:row;
     position: absolute;
     text-align: right;
-    margin-top: 7;
-    margin-left: 1%;   
-    border: none;
-    font-size: 22px;
-    border-radius: 11px;
-    background-color:rgb(222, 243, 246);
-    color:cornsilk;
+    margin-top: 7px;
+        padding-left:1%;
+     
+        border: none;
+        font-size: 22px;
+        border-radius: 11px;
+        background-color:rgb(222, 243, 246);
+        color:cornsilk;
 
 
 }
