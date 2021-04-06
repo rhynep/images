@@ -69,7 +69,7 @@ div.form input {
 
 div.options, div.input-group {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between; 
     padding: 5px 0px;
     margin-bottom: 30px;
